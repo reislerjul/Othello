@@ -16,6 +16,11 @@ public:
 
     // Flag to tell if the player is running within the test_minimax context
     bool testingMinimax;
+    Board othello_board; 
+    Side player_side;
+    Side opponent_side;
+
+    
 };
 
 #endif
